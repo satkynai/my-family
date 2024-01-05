@@ -1,0 +1,227 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: 000;
+  font-size: 16px;
+  position: relative;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  background-color: white;
+  height: vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+}
+.header-line {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 85px;
+  height: 27px;
+  top: 54px;
+  opacity: 0.5px;
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav-item {
+  color: #515151;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: color 0.2s linear;
+}
+.header-logo {
+  margin-left: -100px;
+  margin-right: 25px;
+}
+.family-img {
+  justify-content: center;
+  top: 170px;
+  margin-left: 90px;
+}
+.member-container {
+    flex-wrap: wrap;
+    
+  }
+.members-title {
+  display: flex;
+  padding-top: 50px;
+  margin-left: 625px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #000;
+}
+.member-items {
+    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 20px 8px rgba(0,0,0,0.1);
+  padding-bottom: 50px;
+}
+.member1-item {
+   border: 5px solid#34D8A1;
+   border-radius: 10 px 20px 30px;
+   overflow: hidden;
+  background-color: white;
+  text-align: center;
+  width: 20%;
+  height: 300px;
+  margin-top: 38px;
+  padding-bottom: 0px;
+}
+.member2-item {
+    border: 5px solid #CF86E0;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member3-item {
+    border: 5px solid #FAB483;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member4-item {
+    border: 5px solid #5DC2EA;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member5-item {
+    border: 5px solid #EEBD3D;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member6-item {
+    border: 5px solid#E17272;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member7-item {
+    border: 5px solid #E53253;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+ .member8-item {
+    border: 5px solid#458CB2;
+    border-radius: 10 px 20px 30px;
+    overflow: hidden;
+   background-color: white;
+   text-align: center;
+   width: 20%;
+   height: 300px;
+   margin-top: 38px;
+   padding-bottom: 0px;
+ }
+.member-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  padding-top: 6px;
+  padding-bottom: 17px;
+}
+.member-subtext {
+  font-size: 16px;
+}
+.member-image {
+  position: relative;
+}
+.member-box{
+    width: 300px;
+height: 78.22px;
+top: 222.15px;
+
+}
+.coment{
+    display: flex;
+}
+.coment-down {
+    padding-top: 50px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer {
+    background-color: #4A4A4A;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-icons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .location {
+    position: relative;
+  }
+  .location-img{
+    position: absolute;
+    right: 17px;
+    text-decoration: none;
+  }
+  .num {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
